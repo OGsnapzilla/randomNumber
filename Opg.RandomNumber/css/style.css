@@ -1,0 +1,46 @@
+/* Styling for the content div */
+div#content {
+    display: flex;
+    gap: 2%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    top: 11rem;
+}
+
+/* Button styling */
+.btn {
+    width: 23vw;
+    height: 6vh;
+    font-size: 1.2rem;
+    margin: 1% 1%;
+}
+
+/* Button styling */
+#rndBtn {
+    background-color: mediumspringgreen;
+}
+
+#delBtn {
+    background-color: indianred;
+}
+
+/* List item styling */
+.histdata {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+ul#historyList {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
